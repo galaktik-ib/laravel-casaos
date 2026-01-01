@@ -40,9 +40,9 @@ services:
     networks:
       - laravel
 
-    cloudflared:
-        image: cloudflare/cloudflared:latest
-        command: tunnel --no-autoupdate run --token
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token
             eyJhIjoiZmQ2Y2Y1ZWQ3YjA0MDI3NDQ4ZTY0YThkNTAwMjlkNGYiLCJ0IjoiMjIxYTc3YTgtNGQ0Ni00ZWM1LWJlMzktYWNiZjhlNTNkMGM4IiwicyI6IlpXVXdPR0kwTXprdE5UTTJOQzAwWkdGaUxXSmxZakl0TnpSak56a3laak01T1RRMyJ9
 
 networks:
